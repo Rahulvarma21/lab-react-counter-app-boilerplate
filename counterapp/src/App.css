@@ -1,0 +1,28 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+h2{
+  color: red;
+}
+button{
+  border: 1px solid #02023f;
+  height: 60px;
+  width: 60px;
+  margin: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+#resetBtn{
+  width: 90px;
+}
+button:hover{
+  background-color: blue;
+}
